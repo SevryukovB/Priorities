@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Common.Database\Common.Database.csproj" />
+    <ProjectReference Include="..\Priority.Data.Dto\Priority.Data.Dto.csproj" />
+    <ProjectReference Include="..\Priority.Data\Priority.Data.csproj" />
+  </ItemGroup>
+
+</Project>
